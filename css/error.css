@@ -1,0 +1,73 @@
+
+.error_title {
+    text-transform: uppercase;
+    color: #B94044;
+    font-size: 38px;
+    font-family:gilroyBold;
+    text-align: center;
+    margin: 100px 0;
+}
+.error_text {
+    width: 840px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: auto;
+    font-family:gotham;
+
+}
+
+.error_btn {
+    width: 261px;
+    height: 63px;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #8567F2 0%, #580BE4 100%);
+    box-shadow: 0px 10px 50px rgba(133, 89, 201, 0.3), 0px 4px 0px #2A1EB4;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 130px auto;
+    display: block;
+    font-family:gotham;
+    line-height: 11px;
+    letter-spacing: 0.05em;
+    border: none;
+}
+
+.error_btn:hover {
+    border: 1px solid #2A1EB4;
+}
+
+.error_ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(115, 164, 179);
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    transition: all .2s linear;
+
+}
+
+.error_ball_medium {
+    border: 2px solid rgb(123, 188, 207);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error_ball_small {
+    border: 2px solid rgb(138, 166, 175);
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+.error_ball_medium:hover, .error_ball_small:hover, .error_ball:hover {
+    border: 2px solid #8a62e9;
+}

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- slider  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+
+    <!-- jquery ui -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+    <link rel="stylesheet" href="./css/style_form.css">
+    <link rel="stylesheet" href="./css/tooltip.css">
+    <link rel="stylesheet" href="./css/style_main.css">
+    <link rel="stylesheet" href="./css/style_about.css">
+    <link rel="stylesheet" href="./css/style_galery-footer.css">
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+
+    <!-- header  -->
+
+    <div class="container">
+
+        <div class="preloader">
+            <div class="preloader_image">
+        
+            </div>
+        </div>
+        <header class="header">
+            <div class="header_container">
+
+            <!-- navbar  -->
+            <div class="nav_fixed-block">
+                <nav class="navbar" id="showScroll">
+                <div class="nav_logo">
+                    <a href="#" class="logo"><span class="img_logo"><img src="./img/logo.svg" alt=""></span> <p class="logo_block"> <span class="name_logo"> red line </span> <span class="text_logo" id="lng-text_logo">Лазертаг <br> клуб</span> </p> </a>
+                </div>
+
+                 <div class="nav_link">
+                     <ul class="nav_ul_link">
+                        <li class="nav_li"><a href="index_events.html" id="lng-event_a">Мероприятия</a></li>
+                        <li class="nav_li"><a href="index_price.html" id="lng-price_a">Цены</a></li>
+                        <li class="nav_li"><a href="index_about.html" class="min-width" id="lng-about_a">О нас</a></li>
+                        <li class="nav_li"><a href="index_contact.html" id="lng-contact_a">Контакты</a></li>
+                     </ul>
+                 </div>
+
+                 <div class="nav_contact">
+                     <div class="box_nav_contact">
+                        <p class="nav_instagram bnt_open"><a href="#" class="nav_link_instagrame"><img src="./img/instagram 1.svg" alt="" class="img_nav_contact"></a></p>
+                        <p class="nav_facebook bnt_open-face"><a href="#" class="nav_link_facebook"><img src="./img/facebook.svg" alt="" class="img_nav_contact"></a></p>
+                        <p class="nav_telegram bnt_open-tel"><a href="#" class="nav__link_telegrame"><img src="./img/telegram 1.svg" alt="" class="img_nav_contact"></a></p>
+                        <a class="nav_tel" href="tel:+380951119999">+38 (095) 111-99-99</a>
+
+                        <select id="langs" >
+                            <option value="ua">ua</option>
+                            <option value="ru">ru</option>
+                            
+                        </select>
+                    </div>
+                    <div class="nav_contact_location">
+                        <a href="#main_map" class="nav_contact_location_link" id="lng-location">Узнать o местоположении</a>
+                    </div>
+                 </div>
+
+                 <!-- menu  -->
+                 <div class="nav_block_open_menu">
+                     <!-- <img src="./img/menu_open.png" alt=""> -->
+                     <span class="span_open_nenu"></span>
+                     <span class="span_open_nenu"></span>
+                     <span class="span_open_nenu"></span>
+                 </div>
+                 <div class="nav_menu_container">
+                 <div class="nav_block_menu">
+                     <div class="nav_menu_top">
+                        <div class="nav_menu_title"> <span class="menu_title_text"><img src="./img/logo.svg" alt=""></span>  <p class="nav_menu_top_title"> <span class="nav_menu_top_name"> red line </span> <span class="nav_menu_top_text">Лазертаг <br> клуб</span> </p> </div>
+
+                        <div class="close_menu"><img src="img/close.png" alt=""></div>
+                    </div>
+                     <ul class="nav_ul_menu">
+                        <li class="nav_li_menu"><a href="index.html" class="a" id="menu_activ">Главная</a></li>
+                         <li class="nav_li_menu"><a href="index_events.html" class="a">Мероприятия</a></li>
+                         <li class="nav_li_menu"><a href="index_price.html" class="a">Цены</a></li>
+                         <li class="nav_li_menu"><a href="index_about.html" class="a">О нас</a></li>
+                         <li class="nav_li_menu"><a href="index_contact.html" class="a">Контакты</a></li>
+                         <li class="nav_li_menu"><a href="#" class="a">Локации</a></li>
+                     </ul> 
+                     <div class="menu_social">
+                        
+                        <div class="social_menu_link">
+                            <p class="nav_instagram bnt_open"><a href="#" class="nav_link_instagrame"><img src="./img/instagram 1.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_facebook bnt_open-face"><a href="#" class="nav_link_facebook"><img src="./img/facebook.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_telegram bnt_open-tel"><a href="#" class="nav__link_telegrame"><img src="./img/telegram 1.svg" alt="" class="img_nav_contact"></a></p>
+                        </div>
+                        <p class="tel_social_menu"><a class="tel_social_menu-a" href="tel:+380951119999">+38 (095) 111-99-99</a></p>
+                     </div>
+
+                 </div>
+                </div>
+                </nav>
+            </div>
+            
+
+            <!-- header_content  -->
+            <div class="header_content">
+
+                <!-- header_content_text  -->
+                <div class="header_content_text">
+                    <h2 class="header_content_title" id="lng-header_content_title">
+                        Лазертаг клуб <br> с полным погружением <br> в игровую реальность</h2>
+                    <p class="header_content_info" id="lng-header_content_info">
+                        Захватывающие сражения <br> и взрывные эмоции</p>
+                    <button class="btn_header btnLang-reserv" id="open_form">забронировать место</button>  
+                    <div class="video">
+                        <div class="video_box">
+                            <div class="close_video" id="close_video"></div>
+                            <iframe id="player" width="750" height="400" src="https://www.youtube.com/embed/CdsvO9RgiAQ" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                        </div>
+                    </div>
+                    <div class="header_content_link_video">
+                        <div class="box_link_video_big">
+                            <div class="box_link_video_medium"><div class="box_link_video_small">
+                                <a href="#" class="video_link"><img src="./img/trible_fill.svg" class="play_block"></a>
+                            </div> </div> 
+                        </div>                                           
+                    </div>
+                    <span class="span_video_text" id="lng-span_video_text">Видео о нашем клубе 50 секунд</span>
+                    <span class="span_str_video"><img src="./img/Vector 1.svg" alt=""></span>
+                    <!-- <span class="circle_span"> <img src="./img/О_blue.svg" alt=""></span>
+                    <span class="span_trible"> <img src="./img/trible.svg" alt=""></span> -->
+
+                    <span class="style_ball all_ball" id="tooltip" title="Посмотреть фото NASA"> <span class="style_ball_small"></span> </span>
+                </div>
+
+                <!-- header_content_img  -->
+                <div class="header_content_img">
+                    <div class="targ_shoot">
+                        <span class="targ_shoot-span" id="lng-targ_shoot">Сделай выстрел</span>
+                    </div>
+                    <div class="targ">
+        
+                    </div>
+                    <div class="str_about_btn_center">
+                        <div class="str_about_btn_small_center"></div>
+                    </div>
+                        <span class="style_ball_one all_ball" id="tooltip" title="lazertag Red Line"> <span class="style_ball_small"></span>  </span>
+                        <span class="style_ball_two all_ball" id="tooltip" title="lazertag Red Line"> <span class="style_ball_small"></span> </span>
+                        <span class="style_ball_three all_ball" id="tooltip" title="lazertag Red Line"> <span class="style_ball_small"></span> </span>  
+                </div>
+            </div>
+        </div>
+        </header>
+
+        <main class="main">
+            <div class="main_container">
+
+                <!-- main_slider  -->
+
+                <div class="main_slider">
+                    <h4 class="title_main_slider">Red Line</h4>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="box_slider_show">
+                                <div class="main_slider_img">
+                                    <img src="./img/slider_img/Копия 90.jpg" alt="">
+                                </div>
+                                <div class="main_slider_text">
+                                    <h3 class="main_name_slide" id="lng-main_name_slide1">
+                                        Super lazer
+                                    </h3>
+                                    <p class="main_slide_text" id="lng-main_slide_text1">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nobis. Voluptatem, sunt. Architecto labore necessitatibus esse aperiam dignissimos blanditiis ipsum quis aut? Vel, quos quisquam? Modi quas illum dolor pariatur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_slider_show">
+                                <div class="main_slider_img">
+                                    <img src="./img/slider_img/image-removebg-preview (1) 1.png" alt="">
+                                </div>
+                                <div class="main_slider_text">
+                                    <h3 class="main_name_slide" id="lng-main_name_slide2">
+                                        Super lazer
+                                    </h3>
+                                    <p class="main_slide_text" id="lng-main_slide_text2">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nobis. Voluptatem, sunt. Architecto labore necessitatibus esse aperiam dignissimos blanditiis ipsum quis aut? Vel, quos quisquam? Modi quas illum dolor pariatur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_slider_show">
+                                <div class="main_slider_img">
+                                    <img src="./img/slider_img/Копия 96.jpg" alt="">
+                                </div>
+                                <div class="main_slider_text">
+                                    <h3 class="main_name_slide" id="lng-main_name_slide3">
+                                        Super lazer
+                                    </h3>
+                                    <p class="main_slide_text" id="lng-main_slide_text3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nobis. Voluptatem, sunt. Architecto labore necessitatibus esse aperiam dignissimos blanditiis ipsum quis aut? Vel, quos quisquam? Modi quas illum dolor pariatur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_slider_show">
+                                <div class="main_slider_img">
+                                    <img src="./img/slider_img/Копия F1 - premium-45f.jpg" alt="">
+                                </div>
+                                <div class="main_slider_text">
+                                    <h3 class="main_name_slide" id="lng-main_name_slide4">
+                                        Super lazer
+                                    </h3>
+                                    <p class="main_slide_text" id="lng-main_slide_text4">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nobis. Voluptatem, sunt. Architecto labore necessitatibus esse aperiam dignissimos blanditiis ipsum quis aut? Vel, quos quisquam? Modi quas illum dolor pariatur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="box_slider_show">
+                                <div class="main_slider_img">
+                                    <img src="./img/slider_img/Копия F1 - tactical-90d.jpg" alt="">
+                                </div>
+                                <div class="main_slider_text">
+                                    <h3 class="main_name_slide" id="lng-main_name_slide5">
+                                        Super lazer
+                                    </h3>
+                                    <p class="main_slide_text" id="lng-main_slide_text5">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nobis. Voluptatem, sunt. Architecto labore necessitatibus esse aperiam dignissimos blanditiis ipsum quis aut? Vel, quos quisquam? Modi quas illum dolor pariatur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- main_about  -->
+
+                <div class="main_about">
+                    <!-- <h2 class="about_title">Red Line</h2> -->
+                    <p class="about_name" id="lng-about_name"> О нас</p>
+                    <div class="about_line"></div>  
+                    <div class="about_text" id="lng-about_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aspernatur corrupti ipsam deserunt! Magnam dolore, ad ipsum tempora voluptatibus tempore possimus quisquam architecto inventore iste, qui ducimus sint adipisci consectetur!</div>
+
+                    <div class="about_instrument" id="lng-about_instrument">
+                        Оборудование
+                    </div>
+                    <div class="about_block_instrument">
+                        <div class="about_img"> <span class="about_span_img"><img src="./img/about_img/armour.png" alt=""> </span>
+                        <p class="about_img_name" id="lng-about_img_name1"> &#8249; Защитный желет 	&#8250;</p></div>
+                        <div class="about_img"> <span class="about_span_img"><img src="./img/about_img/goggles.png" alt=""></span>
+                            <p class="about_img_name" id="lng-about_img_name2">&#8249; Защитная маска 	&#8250;</p></div>
+                        <div class="about_img"> <span class="about_span_img"><img src="./img/about_img/radio.png" alt=""></span>
+                            <p class="about_img_name" id="lng-about_img_name3">&#8249; Радиосвязь 	&#8250;</p></div>
+                        <div class="about_img"> <span class="about_span_img"><img src="./img/about_img/handgun.png" alt=""></span>
+                            <p class="about_img_name" id="lng-about_img_name4">&#8249; Лазерные пистолеты 	&#8250;</p></div>
+                    </div>
+                    <button class="about_btn lng-about_btn" id="open_form">Хочу играть!</button>
+
+                    <span class="about_icon_oval"><img src="./img/about_img/О_blue.svg" alt=""></span>
+                    <span class="about_icon_trib"><img src="./img/about_img/trible.svg" alt=""></span>
+
+                </div>
+
+                <!-- forms  -->
+                <div class="wrapper">
+                    <div id="open_window" class="style_open_window">
+                        <div class="close_win" id="close_wrapper"></div>
+                        <div id="welcome_win" class="style_welcome">
+                            <p class="welcome_name"></p>
+                            <p class="welcome_call" id="lng-welcome_call">Мы свяжемся с Вами в ближайшее время</p>
+                        </div>
+                    </div>
+                    <div class="close_form" id="close_wrapper"></div>
+                    <div class="form">
+                        
+                        <form action="telegram.php" id="form" class="form__body" method="POST">
+                            <h1 class="form__title" id="lng-form_title">Оставьте контакты <br> и мы свяжемся с Вами</h1>
+            
+                            <div class="form__item">
+                                <label for="formName" class="form__label" id="lng-form_labelName">Ваше имя</label>
+                                <input type="text" id="formName" name="name" class="form__input _req" minlength="3" >
+                                <span class="span_error" id="lng-form_span_error"  style="display: none;">Заполните поле</span>
+                            </div>
+            
+                            <div class="form__item">
+                                <label for="online_phone" class="form__label"> Ваш телефон</label>
+                                <input class="form__input _req _tel" id="online_phone" name="phone" type="tel" maxlength="20"
+                                required="required" value="+38(___)___-__-__" placeholder="+38(___)___-__-__">
+                                <span class="span_error" id="lng-form_span_error" style="display: none;">Заполните поле</span>
+                            </div>
+                               
+                            <div class="form__item">
+                                <label for="formMassage" class="form__label" id="lng-form_label_massage">Ваш комментарий</label>
+                                <textarea class="form__input" name="message" id="form__message"></textarea>
+                            </div>
+            
+                            <div class="form__item div__check">
+                                <div class="checkbox">
+                                    <input checked id="agreement_input" type="checkbox" name="agreement" class="checkbox__input _req">
+                                    <label for="agreement_input" id="formAdreement" class="checkbox__label"><span id="lng-checkbox_label">Даю согласие</span></label>
+                                    <span class="span_error" id="lng-checkbox_error" style="display: none;">Примите условия</span>
+                                </div>                         
+                            </div>
+                            <input type="submit" class="form__button" id="lng-form_button" value="Отправить">
+                                                  
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- main_game  -->
+
+                <div class="main_game">
+                    <div class="main_game_container">
+                        <h2 class="main_game_title" id="lng-main_game_title">Название игры</h2>
+                        <div class="main_game_name" id="lng-main_game_name">Вид игры</div>
+                        <div class="main_game_line"></div> 
+                        <div class="main_game_text" id="lng-main_game_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aspernatur corrupti ipsam deserunt! Magnam dolore, ad ipsum tempora voluptatibus tempore possimus quisquam architecto inventore iste, qui ducimus sint adipisci consectetur! </div>
+
+                        <div class="main_game_block_interest">
+                            <h3 class="game_interest_name" id="lng-game_interest_name"> Особенность игры</h3>
+                            <p class="game_interest_text" id="lng-game_interest_text">краткое описание </p>
+                        </div>
+
+                        <div class="main_game_stages">
+                            <div class="game_stages_img"> <img src="./img/about_img/footwear.png" alt=""> 
+                            <p class="main_game_name" id="lng-main_game_name1"> снаряжениe </p></div>
+                            <div class="game_stages_img"> <img src="./img/about_img/shooting-target.png" alt="">
+                                <p class="main_game_name" id="lng-main_game_name2"> стратегия </p></div>
+                            <div class="game_stages_img"><img src="./img/about_img/paintball-gun (1).png" alt="">
+                                <p class="main_game_name" id="lng-main_game_name3"> нападение </p></div>
+                            <div class="game_stages_img"><img src="./img/about_img/gloves.png" alt="">
+                                <p class="main_game_name" id="lng-main_game_name4"> оборона </p></div>
+                        </div>
+
+                        <div class="main_game_text_blocks">
+                            <div class="game_text_block">
+                                <p id="lng-game_text_block1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At iste maxime, modi ipsam dolore ipsum, esse obcaecati culpa id veritatis doloribus et soluta error, facere molestias aperiam animi repellendus ab.</p>
+                            </div>
+                            <div class="game_text_block">
+                                <p id="lng-game_text_block2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At iste maxime, modi ipsam dolore ipsum, esse obcaecati culpa id veritatis doloribus et soluta error, facere molestias aperiam animi repellendus ab.</p>
+                            </div>
+                            <div class="game_text_block">
+                                <p id="lng-game_text_block3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At iste maxime, modi ipsam dolore ipsum, esse obcaecati culpa id veritatis doloribus et soluta error, facere molestias aperiam animi repellendus ab.</p>
+                            </div>
+                        </div>
+                        <button class="game_btn lng-game_btn" id="open_form">записаться на игру</button>
+
+                        <span class="game_icon_trib1"><img src="./img/about_img/trible.svg" alt=""></span>
+                        <span class="game_icon_trib2"><img src="./img/about_img/trible.svg" alt=""></span>
+                        <!-- <span class="game_icon_О_red"><img src="./img/about_img/О_red.svg" alt=""></span> -->
+                        <span class="game_icon_О_blue"><img src="./img/about_img/О_blue.svg" alt=""></span>
+                    </div>
+                </div>
+
+                <!-- main_gallery  -->
+
+                <div class="main_galery">
+                    <div class="main_gallery_container">
+                        <h2 class="title_main_galyery"> <span class="gallery_h2_bold" id="lng-gallery_h2_bold">lazer</span> <span class="gallery_h2_small" id="lng-gallery_h2_small">gallery</span></h2>
+
+                        <div class="block_main_gallery">
+
+                            <div class="box_gallery_img">
+                                <img src="./img/gallery/IMG_4.jpg" alt="">
+                                <p class="gallery_description" id="lng-gallery_description1">lazer hobby</p>
+                            </div>
+                            <div class="box_gallery_img">
+                                <img src="./img/gallery/IMG_2.jpg" alt="">
+                                <p class="gallery_description" id="lng-gallery_description2">lazer hobby</p>
+                            </div>
+                            <div class="box_gallery_img">
+                                <img src="./img/gallery/IMG_3.jpg" alt="">
+                                <p class="gallery_description" id="lng-gallery_description3">lazer hobby</p>
+                            </div>
+                            <div class="box_gallery_img">
+                                <img src="./img/gallery/IMG_1.jpg" alt="">
+                                <p class="gallery_description" id="lng-gallery_description4">lazer hobby</p>
+                            </div>
+                            <div class="box_gallery_img">
+                                <img src="./img/gallery/IMG_5.jpg" alt="">
+                                <p class="gallery_description" id="lng-gallery_description5">lazer hobby</p>
+                            </div>
+                            <div class="box_gallery_img">
+                                <img src="./img/gallery/IMG_6.jpg" alt="">
+                                <p class="gallery_description" id="lng-gallery_description6">lazer hobby</p>
+                            </div>
+                            <div class="box_gallery_img">
+                                <img src="./img/gallery/IMG_7.JPG" alt="">
+                                <p class="gallery_description" id="lng-gallery_description7">lazer hobby</p>
+                            </div>
+                        </div>
+                        <button href="https://www.instagram.com/lasertag_if/" class="gallery_btn bnt_open" id="lng-gallery_btn">больше фото</button>
+
+                        <!-- <span class="gallery_icon_trib"><img src="./img/gallery/trible_red.svg" alt=""></span> -->
+
+                    </div>
+
+                    <!-- partners_block  -->
+
+                    <div class="main_conteiner_partners">
+                        <div class="main_box_partners">
+                            <h3 class="title_partners" id="lng-title_partners">Партнеры</h3>
+                            <div class="block_partners">
+                                <div class="one_partners" id="lng-one_partners">visa</div>
+                                <div class="two_partners">mastercard</div>
+                                <div class="three_partners">mono</div>
+                                <div class="four_partners">partner</div>
+                            </div>
+                        </div>
+                        <span class="partners_icon_О_blue"><img src="./img/gallery/О_blue.svg" alt=""></span>
+                        <span class="partners_icon_x_blue"><img src="./img/gallery/x_blue.svg" alt=""></span>
+
+                    </div>
+
+                </div>
+
+                <!-- main_contact  -->
+
+                <div class="main_contact">
+
+                    <div class="main_contact_container" id="main_map">
+
+                        <h3 class="main_contact_title" id="lng-main_contact_title">Контакты</h3>
+
+                        <div class="block_contact">
+                            <div class="box__main_map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10570.635704566224!2d37.674492!3d48.5206027!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x572ac85eafbf349b!2z0JvQsNC30LXRgNGC0LDQsyDQmtC70YPQsSAiUmVkIExpbmUi!5e0!3m2!1sru!2sua!4v1626952327562!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <div class="box_main_contact">
+                                <ul class="main_contact_ul">
+                                    <li class="main_contact_li"><span class="main_contact_span_name" id="lng-main_contact_span_name1"> Адрес: </span> <span class="main_contact_span_text" id="lng-main_contact_span_text1"> проспект Ломоносова, Костянтинівка, Донецька область, 85100 </span></li>
+                                    <li class="main_contact_li"><span class="main_contact_span_name" id="lng-main_contact_span_name2">время работы: </span><span class="main_contact_span_text" id="lng-main_contact_span_text2"> ежедневно 09:00–22:00 </span></li>
+                                    <li class="main_contact_li"><span class="main_contact_span_name">телефон: </span> <span class="main_contact_span_text" ><a href="tel:+380951119999">+380951119999 </a></span></li>
+                                    <li class="main_contact_li"><span class="main_contact_span_name">ел почта: </span><span class="main_contact_span_text" > <a href="mailto:redline@mail.com">redline@mail.com</a> </span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <span class="partners_icon_trib_blue"><img src="./img/gallery/trible_blue.svg" alt=""></span>
+                        <!-- <span class="partners_icon_trib_red"><img src="./img/gallery/trible_red.svg" alt=""></span> -->
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </main>
+
+        <footer class="footer">
+
+            <div class="footer_conteiner">
+                <div class="footer_block_top">
+                    <div class="footer_logo_div">
+                        <a href="index.html" class="footer_logo_a"><span class="footer_img_logo"><img src="./img/logo.svg" alt=""></span> <p class="footer_logo_block"> <span class="footer_name_logo"> red line </span> <span class="footer_text_logo">Лазертаг <br> клуб</span> </p> </a>
+                    </div>
+    
+                     <div class="footer_link_left">
+                         <ul class="footer_ul_link">
+                            <li class="footer_li"><a href="index.html" id="lng-footer_home">Главная</a></li>
+                            <li class="footer_li"><a href="index_events.html" id="lng-footer_event">Мероприятия</a></li>
+                            <li class="footer_li"><a href="index_price.html" id="lng-footer_price">Цены</a></li>
+                            <li class="footer_li"><a href="#" id="lng-footer_locat">Локации</a></li>
+                         </ul>
+                     </div>
+                     <div class="footer_link_center">
+                        <ul class="footer_ul_link">
+                           <li class="footer_li"><a href="index_about.html" id="lng-footer_about">О нас</a></li>
+                           <li class="footer_li"><a href="index_contact.html" id="lng-footer_contact">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_link_right">
+                        <ul class="footer_ul_link">
+                           <li class="footer_li"> <p> <span> <img src="./img/gallery/maps.png" alt="" class="footer_img_city"></span> <span id="lng-footer_city">г. Константиновка</span> </p></li>
+                           <li class="footer_li_tel"> <p> <span ><img src="./img/gallery/telephone.png" alt="" class="footer_img_tel"></span> <a href="tel:+380951119999"> +38 (095) 111-99-99 </a></p></li>
+                        </ul>
+                    </div>
+                </div>
+                     <div class="footer_bottom">
+                        <div class="footer_all_right">
+                            <p> <span class="copyright">&copy; 2021</span> All Rights Reserved</p>
+                        </div>
+
+                         <div class="box_footer_link">
+                            <p class="footer_instagram bnt_open"><a href="#" class="footer_link_instagrame"><img src="./img/gallery/instagram 1.svg" alt="" class="img_footer_contact"></a></p>
+                            <p class="footer_facebook bnt_open-face"><a href="#" class="footer_link_facebook"><img src="./img/gallery/facebook.svg" alt="" class="img_footer_contact"></a></p>
+                            <p class="footer_telegram bnt_open-tel"><a href="#" class="footer__link_telegrame"><img src="./img/gallery/telegram 1.svg" alt="" class="img_footer_contact"></a></p>
+                        </div>
+                        
+                     </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+
+
+    
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/script_form.js"></script>
+    <script src="./js/tooltip.js"></script>
+    <script src="./js/langText.js"></script>
+    <script src="./js/scriptApi.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

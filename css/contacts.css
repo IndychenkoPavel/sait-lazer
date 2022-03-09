@@ -1,0 +1,54 @@
+.main_contact {
+    background: none;
+    position: relative;
+    
+}
+.main_contact_container {
+    background-color: rgba(37, 37, 65, 0.904);
+}
+
+.str_contact_btn {
+    width: 261px;
+    height: 63px;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #8567F2 0%, #580BE4 100%);
+    box-shadow: 0px 10px 50px rgba(133, 89, 201, 0.3), 0px 4px 0px #2A1EB4;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family:gotham;
+    line-height: 11px;
+    letter-spacing: 0.05em;
+    border: none;
+    margin: 50px auto;
+    display: block;
+}
+
+.str_contact_btn:hover {
+    border: 1px solid #2A1EB4;
+}
+
+.str_contacts_icon_x_big {
+    position: absolute;
+    top: 330px;
+    right: -155px;
+}
+.str_contacts_icon_trib {
+    position: absolute;
+    left: -140px;
+    bottom: 350px;
+
+}
+.str_contacts_icon_o_red {
+    position: absolute;
+    left: 300px;
+    bottom: 130px;
+}
+.str_contacts_icon_o_blue {
+    position: absolute;
+    bottom: 110px;
+    right: 130px;
+}
+
+

@@ -1,0 +1,149 @@
+
+.main {
+    width: 100%;
+}
+
+.main_container {
+    width: 100%;
+    background-color: rgb(26, 24, 24);
+    padding-top: 30px;
+}
+
+/* slider  */
+
+
+.main_slider {
+    width: 80%;
+    max-width: 1278px;
+    border: 3px solid #61A8B9;
+    border-radius: 30px;
+    margin: auto;
+    padding-bottom: 30px; 
+    box-shadow: 0px 0px 10px 7px #7baebb9d;
+    margin-bottom: 20px;
+    
+}
+
+.owl-carousel {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    transition: all .2s ease;  
+
+}
+
+.item {
+    width: 100%;
+    margin: auto;
+    padding: 0 50px;
+    
+}
+.title_main_slider {
+    color: #B94044;
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    font-family:gilroy;
+    padding-bottom: 30px;
+}
+
+.box_slider_show{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.main_slider_img {
+    width: 40%;
+}
+
+.main_slider_img img {
+    width: 100%;
+}
+.main_slider_text {
+    width: 55%;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    font-family:gotham;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    
+}
+.main_name_slide {
+    font-size: 30px;
+    text-align: center;
+    color: #61A8B9;
+    background-color: rgba(135, 201, 221, 0.315);
+    margin-bottom: 20px;
+    font-family:gilroy;
+}
+
+.owl-prev {
+    color: white !important;
+    font-size: 75px !important; 
+    position: absolute;
+    left: -20px;
+    top: 43%; 
+}
+.owl-next {
+    color: white !important;
+    font-size: 75px !important; 
+    position: absolute;
+    right: -20px;
+    top: 43%;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    background: none !important;
+}
+
+.owl-dot span {
+    background: rgb(159, 159, 236) !important;
+}
+.owl-dot.active span {
+    background: rgb(41, 41, 138) !important;
+    border: 1px solid rgb(255, 255, 255);
+    height: 11px !important;
+    width: 11px !important;
+}
+
+
+/* adaptive  */
+
+@media screen and (max-width: 1024px) {
+    .box_slider_show{
+        display: block;
+    }
+    .main_slider_text {
+        display: none;
+    }
+    .main_slider_img {
+        width: 90%;
+        margin: auto;
+    }
+    .title_main_slider {
+        display: none;
+    }
+    .item {
+        padding: 0 20px;  
+    }
+    .main_slider {
+        padding-bottom: 20px;    
+    }
+}
+
+@media screen and (max-width: 768px){
+    .event_info_box {
+        width: 85%;
+        margin:  20px auto;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+  
+}
+

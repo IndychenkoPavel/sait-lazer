@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style_galery-footer.css">  <!--footer -->
+    <link rel="stylesheet" href="./css/style1.css">  <!--header-nav -->
+    <link rel="stylesheet" href="./css/style_api.css">
+</head>
+<body>
+
+    <div class="str_api">
+        <div class="header">
+            <div class="header_container">
+                <div class="nav_fixed-block">
+                    <nav class="navbar">
+                    <div class="nav_logo">
+                        <a href="index.html" class="logo"><span class="img_logo"><img src="./img/logo.svg" alt=""></span> <p class="logo_block"> <span class="name_logo"> red line </span> <span class="text_logo" id="lng-text_logo">Лазертаг <br> клуб</span> </p> </a>
+                    </div>
+    
+                     <div class="nav_link">
+                         <ul class="nav_ul_link">
+                            <li class="nav_li"><a href="index_events.html" id="lng-event_a">Мероприятия</a></li>
+                            <li class="nav_li"><a href="index_price.html" id="lng-price_a">Цены</a></li>
+                            <li class="nav_li"><a href="index_about.html" class="min-width" id="lng-about_a">О нас</a></li>
+                            <li class="nav_li"><a href="index_contact.html" id="lng-contact_a">Контакты</a></li>
+                         </ul>
+                     </div>
+    
+                     <div class="nav_contact">
+                         <div class="box_nav_contact">
+                            <p class="nav_instagram"><a href="#" class="nav_link_instagrame"><img src="./img/instagram 1.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_facebook"><a href="#" class="nav_link_facebook"><img src="./img/facebook.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_telegram"><a href="#" class="nav__link_telegrame"><img src="./img/telegram 1.svg" alt="" class="img_nav_contact"></a></p>
+                            <a class="nav_tel" href="tel:+380951119999">+38 (095) 111-99-99</a>
+    
+                            <select id="langs">
+                                <option value="ua">ua</option>
+                                <option value="ru">ru</option>
+                                
+                            </select>
+                        </div>
+                        <div class="nav_contact_location">
+                            <a href="#main_map" class="nav_contact_location_link" id="lng-location">Узнать o местоположении</a>
+                        </div>
+                     </div>
+    
+                     <!-- menu  -->
+                     <div class="nav_block_open_menu">
+                         <!-- <img src="./img/menu_open.png" alt=""> -->
+                         <span class="span_open_nenu"></span>
+                         <span class="span_open_nenu"></span>
+                         <span class="span_open_nenu"></span>
+                     </div>
+                     <div class="nav_menu_container">
+                     <div class="nav_block_menu">
+                         <div class="nav_menu_top">
+                            <div class="nav_menu_title"> <span class="menu_title_text"><img src="./img/logo.svg" alt=""></span>  <p class="nav_menu_top_title"> <span class="nav_menu_top_name"> red line </span> <span class="nav_menu_top_text">Лазертаг <br> клуб</span> </p> </div>
+    
+                            <div class="close_menu"><img src="img/close.png" alt=""></div>
+                        </div>
+                         <ul class="nav_ul_menu">
+                            <li class="nav_li_menu"><a href="index.html" class="a" id="menu_activ">Главная</a></li>
+                             <li class="nav_li_menu"><a href="index_events.html" class="a">Мероприятия</a></li>
+                             <li class="nav_li_menu"><a href="index_price.html" class="a">Цены</a></li>
+                             <li class="nav_li_menu"><a href="index_about.html" class="a">О нас</a></li>
+                             <li class="nav_li_menu"><a href="index_contact.html" class="a">Контакты</a></li>
+                             <li class="nav_li_menu"><a href="#" class="a">Локации</a></li>
+                             <li class="nav_li_menu"><a class="menu_tel a" href="tel:+380951119999">+38 (095) 111-99-99</a></li>
+                         </ul> 
+                         <div class="menu_social">
+                            <p class="nav_instagram bnt_open"><a href="#" class="nav_link_instagrame"><img src="./img/instagram 1.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_facebook"><a href="#" class="nav_link_facebook"><img src="./img/facebook.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_telegram"><a href="#" class="nav__link_telegrame"><img src="./img/telegram 1.svg" alt="" class="img_nav_contact"></a></p>
+                         </div>
+    
+                     </div>
+                    </div>
+                    </nav>
+                </div>
+                <main class="main_api">
+
+                    <div class="datas">
+                        <div class="block_date">
+                            <label class="label_date" id="lng-date-text" for="dates">Выбери дату</label>
+                            <input type="date" class="data_picker" id="dates">
+                        </div>  
+                        <button class="btn_date" id="btn">жми тут</button>
+                    </div>
+                    <div class="title_block">
+                        <h3 class="main_api-title" id="api_title"></h3>
+                        <p class="date-text" id="date"></p>
+                    </div>
+                        
+                      
+                    <div class="block_media-text">
+                        <div class="block-img" id="wrap-media"></div>
+                        <div class="api_text" id="api_text"></div>
+                    </div>  
+                    <div class="api_copyright" id="api_copyright">
+                        <span class="autor_api"> &copy;</span>
+                    </div>  
+                    <div id="hdurl"></div>               
+                </main>       
+            </div>
+        </div>
+
+        
+
+
+
+
+
+        <footer class="footer">
+
+    <div class="footer_conteiner">
+        <div class="footer_block_top">
+            <div class="footer_logo_div">
+                <a href="index.html" class="footer_logo_a"><span class="footer_img_logo"><img src="./img/logo.svg" alt=""></span> <p class="footer_logo_block"> <span class="footer_name_logo"> red line </span> <span class="footer_text_logo">Лазертаг <br> клуб</span> </p> </a>
+            </div>
+
+             <div class="footer_link_left">
+                 <ul class="footer_ul_link">
+                    <li class="footer_li"><a href="index.html" id="lng-footer_home">Главная</a></li>
+                    <li class="footer_li"><a href="index_events.html" id="lng-footer_event">Мероприятия</a></li>
+                    <li class="footer_li"><a href="index_price.html" id="lng-footer_price">Цены</a></li>
+                    <li class="footer_li"><a href="#" id="lng-footer_locat">Локации</a></li>
+                 </ul>
+             </div>
+             <div class="footer_link_center">
+                <ul class="footer_ul_link">
+                   <li class="footer_li"><a href="index_about.html" id="lng-footer_about">О нас</a></li>
+                   <li class="footer_li"><a href="index_contact.html" id="lng-footer_contact">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer_link_right">
+                <ul class="footer_ul_link">
+                   <li class="footer_li"> <p> <span> <img src="./img/gallery/maps.png" alt="" class="footer_img_city"></span> <span id="lng-footer_city">г. Константиновка</span> </p></li>
+                   <li class="footer_li_tel"> <p> <span ><img src="./img/gallery/telephone.png" alt="" class="footer_img_tel"></span> <a href="tel:+380951119999"> +38 (095) 111-99-99 </a></p></li>
+                </ul>
+            </div>
+        </div>
+             <div class="footer_bottom">
+                <div class="footer_all_right">
+                    <p> <span class="copyright">&copy; 2021</span> All Rights Reserved</p>
+                </div>
+
+                 <div class="box_footer_link">
+                    <p class="footer_instagram bnt_open"><a href="#" class="footer_link_instagrame"><img src="./img/gallery/instagram 1.svg" alt="" class="img_footer_contact"></a></p>
+                    <p class="footer_facebook"><a href="#" class="footer_link_facebook"><img src="./img/gallery/facebook.svg" alt="" class="img_footer_contact"></a></p>
+                    <p class="footer_telegram"><a href="#" class="footer__link_telegrame"><img src="./img/gallery/telegram 1.svg" alt="" class="img_footer_contact"></a></p>
+                </div>
+                
+             </div>
+
+    </div>
+
+        </footer>
+    </div>
+<script src="./js/langText.js"></script>
+<script src="./js/script_api.js"></script>
+</body>
+</html>

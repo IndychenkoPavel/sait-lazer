@@ -1,0 +1,299 @@
+.price_block {
+    width: 100%;
+}
+
+.title_price {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-family:gilroy;
+    /* font-family:gilroyBold; */
+}
+
+.main_price {
+    position: relative;
+}
+
+.price_container {
+    width: 100%;   
+}
+.price_tab{
+    color: #fff;
+    width: 890px;
+    margin: 0 auto 50px;
+    font-family:gotham;
+}
+
+.tabs_nav {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs_nav-btn {
+    border: 0;
+    cursor: pointer;
+    background-color: rgba(101, 101, 155, 0.89);
+    height: 50px;
+    width: 157px;
+    text-align: center;
+    font-size: 17px;
+    margin-right: 5px;
+    border-radius: 20px 20px 0 0;
+    font-family:gotham;
+    display: block;
+    color: #fff;
+}
+
+.tabs_nav-btn:last-child {
+    border-right: none;
+}
+
+.tabs_nav-btn:hover {
+    background-color: rgba(151, 151, 194, 0.973);
+    color: #000;
+}
+
+.tabs_nav-btn.active {
+    background-color: rgba(67, 66, 134, 0.719);
+    color: #fff;
+    font-style: italic;
+    border-right: 2px solid rgba(129, 129, 197, 0.89);
+    border-left: 2px solid rgba(129, 129, 197, 0.89);
+    border-top: 2px solid rgba(129, 129, 197, 0.89);
+}
+.tabs_item {
+    display: none;
+}
+
+.tabs_content > div {
+    transition: all .5s linear;
+}
+.tabs_item.active {
+    display: flex;
+    background-color: rgba(67, 66, 134, 0.719);
+    color: #fff;
+    padding: 30px 50px;
+    border-radius: 20px;
+    /* border-radius: 0 20px 20px; */  
+}
+.block_item_border {
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 300px;
+}
+
+.list_workday, .list_weekend {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.list_weekend_text, .list_weekend_price, .list_workday_price, .list_workday_text {
+    display: block;
+    margin: auto;
+}
+
+.list_workday_text{
+    width: 150px;
+    font-size: 17px;
+}
+.list_weekend_text {
+    width: 250px;
+}
+
+.price_sale_workday, .price_sale_weekend {
+    font-size: 25px;
+    text-align: center;
+    width: 40%;
+}
+.price_btn {
+    width: 261px;
+    height: 63px;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #8567F2 0%, #580BE4 100%);
+    box-shadow: 0px 10px 50px rgba(133, 89, 201, 0.3), 0px 4px 0px #2A1EB4;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    margin: auto;
+    font-family:gotham;
+    line-height: 11px;
+    letter-spacing: 0.05em;
+    border: none;
+    display: block;
+}
+
+.price_btn:hover {
+    border: 1px solid #2A1EB4;
+}
+
+
+/* promotion_block  */
+
+.promotion_block {
+    color: #fff;
+    height: 500px;
+}
+
+.promotion_title {
+    font-size: 45px;
+    font-family:gotham;
+    text-align: center;
+    font-weight: 700;  
+    margin-top: 100px; 
+}
+
+.promotion_name {
+    text-align: center;
+    font-size: 30px;
+    font-family:gilroy;
+    color: #61A8B9;
+    font-weight: 700;
+    margin: 30px 0 10px;
+}
+
+.promotion_sub_name{
+    text-align: center;
+    font-size: 25px;
+    font-family:gilroy;
+    color: #B94044;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.promotion_text {
+    width: 800px;
+    margin: auto;
+    background-color: rgba(67, 66, 134, 0.719);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.prom_list {
+    list-style: none;
+}
+
+.prom_li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family:gotham;
+}
+
+.price_icon_trib {
+    position: absolute;
+    left: -150px;
+    top: 300px;
+}
+.price_icon_x_red {
+    position: absolute;
+    right: -150px;
+    top: 250px;
+}
+.price_icon_x_blue {
+    position: absolute;
+    left: 150px;
+    bottom: 150px;
+}
+.price_icon_o_red_one {
+    position: absolute;
+    left: 100px;
+    bottom: 370px;
+}
+.price_icon_o_red_two {
+    position: absolute;
+    right: 100px;
+    bottom: 220px;
+}
+
+
+/* adaptive price */
+
+@media screen and (max-width: 1024px) {
+    .price_tab {
+        width: auto;
+    }
+
+    .tabs_nav-btn, .list_weekend_text, .list_workday_text, .list_weekend_price, .list_workday_price {
+        font-size: 15px;
+    }
+    .price_sale_workday, .price_sale_weekend {
+        font-size: 20px;
+    }
+
+    .promotion_text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .list_weekend_text, .list_workday_text {
+        width: 150px;
+    }
+    .list_workday_price {
+        width: 70px;
+    }
+    .list_workday, .list_weekend {
+        justify-content: center;
+    }
+
+    .list_weekend_text, .list_weekend_price, .list_workday_price, .list_workday_text {
+        margin: 0 10px;
+    }
+
+    .block_item_border {
+        display: block;
+        height: auto;
+        padding-bottom: 20px;
+    }
+ 
+    .price_workday, .price_sale_workday, .price_weekend, .price_sale_weekend {
+        margin: 30px auto 0;
+
+    }
+    .price_sale_workday, .price_sale_weekend {
+        width: 70%;
+    }
+    .tabs_item.active {
+        padding: 20px 30px;
+    }
+
+    .prom_li {
+        font-size: 15px;
+    }
+    .promotion_block {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .tabs_nav-btn, .list_weekend_text, .list_workday_text, .list_weekend_price, .list_workday_price {
+        font-size: 13px;
+    }
+    .price_sale_workday, .price_sale_weekend {
+        font-size: 15px;
+    }
+    .tabs_item.active {
+        padding: 10px 20px;
+    }
+    .tabs_nav-btn {
+        width: 120px;
+        height: 40px;
+        border-radius: 10px 10px 0 0;
+    }
+}
+@media screen and (max-width: 380px){
+    .tabs_nav-btn {
+        width: 100px;
+        height: auto;
+        
+        
+    }
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- jqueru  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/style_galery-footer.css">  <!--footer -->
+    <link rel="stylesheet" href="./css/style1.css">  <!--header-nav -->
+    <link rel="stylesheet" href="./css/style_form.css">
+    <link rel="stylesheet" href="./css/price.css">
+</head>
+<body>
+
+    <div class="price_block">
+        <!-- <div class="preloader">
+            <div class="preloader_image">
+        
+            </div>
+        </div> -->
+        <div class="header">
+            <div class="header_container">
+                <div class="nav_fixed-block">
+                    <nav class="navbar" id="showScroll">
+                    <div class="nav_logo">
+                        <a href="index.html" class="logo"><span class="img_logo"><img src="./img/logo.svg" alt=""></span> <p class="logo_block"> <span class="name_logo"> red line </span> <span class="text_logo" id="lng-text_logo">Лазертаг <br> клуб</span> </p> </a>
+                    </div>
+    
+                     <div class="nav_link">
+                         <ul class="nav_ul_link">
+                            <li class="nav_li"><a href="index_events.html" id="lng-event_a">Мероприятия</a></li>
+                            <li class="nav_li"><a class="activ" href="index_price.html" id="lng-price_a">Цены</a></li>
+                            <li class="nav_li"><a href="index_about.html" class="min-width" id="lng-about_a">О нас</a></li>
+                            <li class="nav_li"><a href="index_contact.html" id="lng-contact_a">Контакты</a></li>
+                         </ul>
+                     </div>
+    
+                     <div class="nav_contact">
+                         <div class="box_nav_contact">
+                            <p class="nav_instagram bnt_open"><a href="#" class="nav_link_instagrame"><img src="./img/instagram 1.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_facebook"><a href="#" class="nav_link_facebook"><img src="./img/facebook.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_telegram"><a href="#" class="nav__link_telegrame"><img src="./img/telegram 1.svg" alt="" class="img_nav_contact"></a></p>
+                            <a class="nav_tel" href="tel:+380951119999">+38 (095) 111-99-99</a>
+    
+                            <select id="langs">
+                                <option value="ua">ua</option>
+                                <option value="ru">ru</option>
+                                
+                            </select>
+                        </div>
+                        <div class="nav_contact_location">
+                            <a href="index_contact.html" class="nav_contact_location_link" id="lng-location">Узнать o местоположении</a>
+                        </div>
+                     </div>
+    
+                     <!-- menu  -->
+                     <div class="nav_block_open_menu">
+                         <!-- <img src="./img/menu_open.png" alt=""> -->
+                         <span class="span_open_nenu"></span>
+                         <span class="span_open_nenu"></span>
+                         <span class="span_open_nenu"></span>
+                     </div>
+                     <div class="nav_menu_container">
+                     <div class="nav_block_menu">
+                         <div class="nav_menu_top">
+                            <div class="nav_menu_title"> <span class="menu_title_text"><img src="./img/logo.svg" alt=""></span>  <p class="nav_menu_top_title"> <span class="nav_menu_top_name"> red line </span> <span class="nav_menu_top_text">Лазертаг <br> клуб</span> </p> </div>
+    
+                            <div class="close_menu"><img src="img/close.png" alt=""></div>
+                        </div>
+                         <ul class="nav_ul_menu">
+                            <li class="nav_li_menu"><a href="index.html" class="a" id="menu_activ">Главная</a></li>
+                             <li class="nav_li_menu"><a href="index_events.html" class="a">Мероприятия</a></li>
+                             <li class="nav_li_menu"><a href="index_price.html" class="a">Цены</a></li>
+                             <li class="nav_li_menu"><a href="index_about.html" class="a">О нас</a></li>
+                             <li class="nav_li_menu"><a href="index_contact.html" class="a">Контакты</a></li>
+                             <li class="nav_li_menu"><a href="#" class="a">Локации</a></li>
+                             <li class="nav_li_menu"><a class="menu_tel a" href="tel:+380951119999">+38 (095) 111-99-99</a></li>
+                         </ul> 
+                         <div class="menu_social">
+                            <p class="nav_instagram"><a href="#" class="nav_link_instagrame"><img src="./img/instagram 1.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_facebook"><a href="#" class="nav_link_facebook"><img src="./img/facebook.svg" alt="" class="img_nav_contact"></a></p>
+                            <p class="nav_telegram"><a href="#" class="nav__link_telegrame"><img src="./img/telegram 1.svg" alt="" class="img_nav_contact"></a></p>
+                         </div>
+    
+                     </div>
+                    </div>
+                    </nav>
+                </div>
+                <main class="main_price">
+                    <h2 class="title_price" id="lng-title_price">Цены</h2>
+
+                        <div class="price_container">
+
+                            <div class="price_tab">
+                                <div class="tabs_nav">
+                                    <button class="tabs_nav-btn" id="lng-tabs_nav-btn1" type="button" data-tab="#tab_1">Будние дни</button>
+                                    <button class="tabs_nav-btn" id="lng-tabs_nav-btn2" type="button" data-tab="#tab_2">Выходные и празничные дни</button>
+                                </div>
+                                <div class="tabs_content">
+                                    <div class="tabs_item" id="tab_1">
+                                        <div class="block_item_border">
+                                        <ul class="price_workday">
+                                            <li class="list_workday"> <span class="list_workday_text" id="lng-list_workday_text1">- Соревнования:</span>  <span class="list_workday_price"> 200 грн</span></li>
+                                            <li class="list_workday"> <span class="list_workday_text" id="lng-list_workday_text2">- тренировка:</span>  <span class="list_workday_price"> 200 грн</span></li>
+                                            <li class="list_workday"> <span class="list_workday_text" id="lng-list_workday_text3">- тренировка:</span>  <span class="list_workday_price"> 200 грн</span></li>
+                                            <li class="list_workday"> <span class="list_workday_text" id="lng-list_workday_text4">- тренировка:</span>  <span class="list_workday_price"> 200 грн</span></li>
+                                            <li class="list_workday"> <span class="list_workday_text" id="lng-list_workday_text5">- тренировка:</span>  <span class="list_workday_price"> 200 грн</span></li>
+                                            <li class="list_workday"> <span class="list_workday_text" id="lng-list_workday_text6">- тренировка:</span>  <span class="list_workday_price"> 200 грн</span></li>
+                                        </ul>
+                                        <div class="price_sale_workday" id="lng-price_sale_workday">Приведи друга и получи скидку 10%</div>
+                                    </div>
+                                    </div>
+                            
+                                    <div class="tabs_item" id="tab_2">
+                                        <div class="block_item_border">
+                                        <ul class="price_weekend">
+                                            <li class="list_weekend"> <span class="list_weekend_text" id="lng-list_weekend_text1">- Соревнования:</span>  <span class="list_weekend_price"> 200 грн</span></li>
+                                            <li class="list_weekend"> <span class="list_weekend_text" id="lng-list_weekend_text2">- вид игры:</span>  <span class="list_weekend_price"> 200 грн</span></li>
+                                            <li class="list_weekend"> <span class="list_weekend_text" id="lng-list_weekend_text3">- вид игры:</span>  <span class="list_weekend_price"> 200 грн</span></li>
+                                            <li class="list_weekend"> <span class="list_weekend_text" id="lng-list_weekend_text4">- вид игры:</span>  <span class="list_weekend_price"> 200 грн</span></li>
+                                            <li class="list_weekend"> <span class="list_weekend_text" id="lng-list_weekend_text5">- вид игры:</span>  <span class="list_weekend_price"> 200 грн</span></li>
+                                        </ul>
+
+                                        <div class="price_sale_weekend">В день рождения скидка 10%</div>
+                                    </div>
+                                    </div>                           
+                                </div>
+                            </div>
+                            
+                        
+                   
+                    <button class="price_btn btnLang-price_btn" id="open_form">записаться на игру</button>
+
+                    <!-- prom block  -->
+                    <div class="promotion_block">
+                        <div class="promotion_title" id="lng-promotion_title">Акции</div>
+
+                        <div class="promotion_name" id="lng-promotion_name">
+                            Получи бонусы от выполненных заданий
+                        </div>
+                        <div class="promotion_sub_name" id="lng-promotion_sub_name">
+                            Призы и награды победителям
+                        </div>
+                        <div class="about_line"></div> 
+
+                        <div class="promotion_text">
+                            <ul class="prom_list">
+                                <li class="prom_li" id="lng-prom_li1">- Приведи 5 участников и получи бесплатную тренировку</li>
+                                <li class="prom_li" id="lng-prom_li2">- Каждое 5 посещение бесплатно</li>
+                                <li class="prom_li" id="lng-prom_li3">- Приз для команды победителя</li>
+                                <li class="prom_li" id="lng-prom_li4">- Приведи 5 участников и получи бесплатную тренировку</li>
+                                <li class="prom_li" id="lng-prom_li5">- Приведи 5 участников и получи бесплатную тренировку</li>
+                            </ul>
+    
+                        </div>
+                        
+                    </div>
+                </div>
+
+                    <span class="price_icon_trib"><img src="./img/price_img/trible.svg" alt=""></span>
+                    <span class="price_icon_x_red"><img src="./img/price_img/О_blue.svg" alt=""></span>
+                    <span class="price_icon_x_blue"><img src="./img/price_img/x_blue.svg" alt=""></span>
+                    <span class="price_icon_o_red_one"><img src="./img/price_img/О_blue.svg" alt=""></span>
+                    <span class="price_icon_o_red_two"><img src="./img/price_img/О_blue.svg" alt=""></span>
+
+                
+                </main>
+                
+
+    </div>
+
+    <!-- form  -->
+    <div class="wrapper">
+        <div id="open_window" class="style_open_window">
+            <div class="close_win" id="close_wrapper"></div>
+            <div id="welcome_win" class="style_welcome">
+                <p class="welcome_name"></p>
+                <p class="welcome_call" id="lng-welcome_call">Мы свяжемся с Вами в ближайшее время</p>
+            </div>
+        </div>
+        <div class="close_form" id="close_wrapper"></div>
+        <div class="form">
+            
+            <form action="telegram.php" id="form" class="form__body" method="POST">
+                <h1 class="form__title" id="lng-form_title">Оставьте контакты <br> и мы свяжемся с Вами</h1>
+
+                <div class="form__item">
+                    <label for="formName" class="form__label" id="lng-form_labelName">Ваше имя</label>
+                    <input type="text" id="formName" name="name" class="form__input _req" minlength="3" >
+                    <span class="span_error" id="lng-form_span_error"  style="display: none;">Заполните поле</span>
+                </div>
+
+                <div class="form__item">
+                    <label for="online_phone" class="form__label"> Ваш телефон</label>
+                    <input class="form__input _req _tel" id="online_phone" name="phone" type="tel" maxlength="20"
+                    required="required" value="+38(___)___-__-__" placeholder="+38(___)___-__-__">
+                    <span class="span_error" id="lng-form_span_error" style="display: none;">Заполните поле</span>
+                </div>
+                   
+                <div class="form__item">
+                    <label for="formMassage" class="form__label" id="lng-form_label_massage">Ваш комментарий</label>
+                    <textarea class="form__input" name="message" id="form__message"></textarea>
+                </div>
+
+                <div class="form__item div__check">
+                    <div class="checkbox">
+                        <input checked id="agreement_input" type="checkbox" name="agreement" class="checkbox__input _req">
+                        <label for="agreement_input" id="formAdreement" class="checkbox__label"><span id="lng-checkbox_label">Даю согласие</span></label>
+                        <span class="span_error" id="lng-checkbox_error" style="display: none;">Примите условия</span>
+                    </div>                         
+                </div>
+                <input type="submit" class="form__button" id="lng-form_button" value="Отправить">
+                                      
+            </form>
+        </div>
+    </div>
+
+</div>
+
+    <footer class="footer">
+
+    <div class="footer_conteiner">
+        <div class="footer_block_top">
+            <div class="footer_logo_div">
+                <a href="index.html" class="footer_logo_a"><span class="footer_img_logo"><img src="./img/logo.svg" alt=""></span> <p class="footer_logo_block"> <span class="footer_name_logo"> red line </span> <span class="footer_text_logo">Лазертаг <br> клуб</span> </p> </a>
+            </div>
+
+             <div class="footer_link_left">
+                 <ul class="footer_ul_link">
+                    <li class="footer_li"><a href="index.html" id="lng-footer_home">Главная</a></li>
+                    <li class="footer_li"><a href="index_events.html" id="lng-footer_event">Мероприятия</a></li>
+                    <li class="footer_li"><a href="index_price.html" id="lng-footer_price">Цены</a></li>
+                    <li class="footer_li"><a href="#" id="lng-footer_locat">Локации</a></li>
+                 </ul>
+             </div>
+             <div class="footer_link_center">
+                <ul class="footer_ul_link">
+                   <li class="footer_li"><a href="index_about.html" id="lng-footer_about">О нас</a></li>
+                   <li class="footer_li"><a href="index_contact.html" id="lng-footer_contact">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer_link_right">
+                <ul class="footer_ul_link">
+                   <li class="footer_li"> <p> <span> <img src="./img/gallery/maps.png" alt="" class="footer_img_city"></span> <span id="lng-footer_city">г. Константиновка</span> </p></li>
+                   <li class="footer_li_tel"> <p> <span ><img src="./img/gallery/telephone.png" alt="" class="footer_img_tel"></span> <a href="tel:+380951119999"> +38 (095) 111-99-99 </a></p></li>
+                </ul>
+            </div>
+        </div>
+             <div class="footer_bottom">
+                <div class="footer_all_right">
+                    <p> <span class="copyright">&copy; 2021</span> All Rights Reserved</p>
+                </div>
+
+                 <div class="box_footer_link">
+                    <p class="footer_instagram bnt_open"><a href="#" class="footer_link_instagrame"><img src="./img/gallery/instagram 1.svg" alt="" class="img_footer_contact"></a></p>
+                    <p class="footer_facebook"><a href="#" class="footer_link_facebook"><img src="./img/gallery/facebook.svg" alt="" class="img_footer_contact"></a></p>
+                    <p class="footer_telegram"><a href="#" class="footer__link_telegrame"><img src="./img/gallery/telegram 1.svg" alt="" class="img_footer_contact"></a></p>
+                </div>
+                
+             </div>
+
+    </div>
+
+    </footer>
+</div>
+
+<script src="./js/script_form.js"></script>
+<script src="./js/langText.js"></script>
+<script src="./js/price.js"></script>
+</body>
+</html>

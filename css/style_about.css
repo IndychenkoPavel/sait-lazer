@@ -1,0 +1,328 @@
+.main_about {
+    width: 100%;
+    max-width: 1278px;
+    margin: auto;
+    background-color: rgb(26, 24, 24);
+    color: #fff;
+    padding: 30px;
+    position: relative;
+}
+
+.about_title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    color: #B94044;
+    font-family:gilroy;
+    padding-bottom: 20px;
+    
+}
+
+.about_name {
+    padding-top: 30px;
+    font-size: 45px;
+    color: #61A8B9;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:gotham;
+}
+
+.about_line {
+    border-bottom: 1px solid #61A8B9;
+    /* border-bottom: 1px solid white; */
+    width: 100px;
+    margin: 0 auto 30px;
+}
+
+.about_text {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-family:gotham;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+.about_instrument {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: #61A8B9;
+    font-family:gotham;
+}
+
+.about_btn {
+    width: 261px;
+    height: 63px;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #8567F2 0%, #580BE4 100%);
+    box-shadow: 0px 10px 50px rgba(133, 89, 201, 0.3), 0px 4px 0px #2A1EB4;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family:gotham;
+    line-height: 11px;
+    letter-spacing: 0.05em;
+    border: none;
+    margin: auto;
+    display: block;
+}
+.about_btn:hover {
+    border: 1px solid #2A1EB4;
+}
+
+.about_block_instrument {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.about_img {
+    width: 20%;
+    min-width: 180px;
+    text-align: center;
+    
+}
+
+.about_img img{
+    width: 70%;    
+}
+
+.about_span_img {
+    width: 100px;
+    border: solid 1px #61A8B9;
+    border-radius: 20px;
+    height: 100px;
+    display: block;
+    padding: 10px 0;
+    margin: auto;
+}
+
+.about_img_name {
+    color: #61A8B9;
+}
+
+.about_icon_x {
+    position: absolute;
+    left: 200px;
+    bottom: 150px;
+}
+.about_icon_oval {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.about_icon_trib {
+    position: absolute;
+    left: -20px;
+    top: 200px;
+}
+.about_icon_x2 {
+    position: absolute;
+    right: 200px;
+    bottom: 30px;
+}
+
+
+
+/* main_game  */
+.main_game {
+    background-color: rgb(26, 24, 24); 
+}
+.main_game_container {
+    max-width: 1278px;
+    margin: auto;
+    position: relative;
+    padding: 30px;
+}
+.main_game_title {
+    text-align: center;
+    color: #61A8B9;
+    font-size: 35px;
+    font-family:gilroy;
+}
+
+.main_game_name {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    font-family:gotham;
+}
+
+.main_game_line {
+    border-bottom: 1px solid #61A8B9;
+    width: 100px;
+    margin: 10px auto 30px;
+}
+
+.main_game_text {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    color: #fff;
+    font-family:gotham;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+.main_game_block_interest {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 70px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    margin-top: 50px;
+}
+.game_interest_name {
+    color: #61A8B9;
+    font-size: 22px;
+    font-family:gilroy;
+}
+
+.game_interest_text {
+    color: #fff;
+    margin-top: 5px;
+    font-family:gotham;
+    
+}
+.main_game_stages {
+    display: flex;
+    width: 700px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+} 
+
+.game_stages_img {
+    width: 20%;
+    text-align: center;
+}
+.game_stages_img img {
+    width: 110px;
+}
+
+.main_game_text_blocks {
+    display: flex;
+    color: #fff;
+    width: 75%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.game_text_block {
+    background-color: rgba(136, 114, 236, 0.288);
+    padding: 30px 20px;
+    width: 30%;
+    font-family:gotham;
+    /* text-align: center; */
+}
+
+.game_btn {
+    width: 261px;
+    height: 63px;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #8567F2 0%, #580BE4 100%);
+    box-shadow: 0px 10px 50px rgba(133, 89, 201, 0.3), 0px 4px 0px #2A1EB4;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family:gotham;
+    line-height: 11px;
+    letter-spacing: 0.05em;
+    border: none;
+    margin: auto;
+    display: block;
+}
+
+.game_btn:hover {
+    border: 1px solid #2A1EB4;
+}
+
+.game_icon_trib1 {
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    transform: rotate(-20deg);
+}
+.game_icon_trib2 {
+    position: absolute;
+    left: 100px;
+    bottom: 85px;
+}
+
+.game_icon_x_blue {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+.game_icon_О_red {
+    position: absolute;
+    left: 30px;
+    top: 40%;
+}
+.game_icon_О_blue {
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+}
+
+/* adaptive about */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px){
+    .about_block_instrument {
+        flex-wrap: wrap;
+        padding: 0 50px;
+    }
+    .about_img {
+        width: 45%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .about_block_instrument {
+        padding: 0;
+    }
+}
+
+/* adaptive game */
+
+@media screen and (max-width: 1024px) {
+    .main_game_text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main_game_stages {
+        width: auto;
+        padding: 0 30px;
+        flex-wrap: wrap;
+    }
+    .game_stages_img {
+        width: 45%;
+        margin-top: 20px;
+    }
+
+    .main_game_text_blocks {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .game_stages_img {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
